@@ -30,7 +30,7 @@ function validInput() {
     
     if((validUser !=='' || validUser !==undefined) && (validPassword !=='' || validPassword !==undefined)){
         document.getElementById("resultado").style.display= "block";
-        document.getElementById("resultado").innerHTML = "Verificar credenciales";
+        document.getElementById("resultado").innerHTML = "Estimado/a. usurio verifique sus credenciales de acceso";
 
         setTimeout(()=>{
             document.getElementById("resultado").style.display= "none";
