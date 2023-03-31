@@ -11,8 +11,8 @@
 Pantalla de Login
 - permite acceder a la pantalla principal de aplicación.
 - credenciales: 
-  Username: admin
-  Password: admin
+    Username: admin
+    Password: admin
  
 Pantalla de aplicación
 permite acceder a usuario logeado:
