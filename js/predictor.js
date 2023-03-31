@@ -53,13 +53,13 @@ function predecir() {
 
     if (enPicoPlaca && puedeCircular) {
       document.getElementById("resultado").style.display = "block";
-      document.getElementById("resultado").innerHTML = "No puede circular en el día y hora especificados";
+      document.getElementById("resultado").innerHTML = `La <b>${placa}</b> no puede circular en el día y hora especificados`;
       setTimeout(()=>{
         document.getElementById("resultado").style.display= "none";
       },4000);
     } else {
       document.getElementById("resultado").style.display = "block";
-      document.getElementById("resultado").innerHTML = "Puede circular en el día y hora especificados";
+      document.getElementById("resultado").innerHTML = `La <b>${placa}</b> puede circular en el día y hora especificados`;
       setTimeout(() => {
         document.getElementById("resultado").style.display= "none";
       },4000);
