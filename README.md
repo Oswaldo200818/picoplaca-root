@@ -9,9 +9,8 @@
 
 **Diseño**
 Pantalla de Login
-- Input para ingresar usuario en pantalla login
--permite acceder a la pantalla principal de aplicación.
--credenciales: 
+- permite acceder a la pantalla principal de aplicación.
+- credenciales: 
   Username: admin
   Password: admin
  
