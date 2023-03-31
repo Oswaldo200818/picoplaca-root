@@ -1,6 +1,13 @@
+/**
+ * Constant USERNAME AND PASSWORD to login
+ */
 const USERNAME= "admin";
 const PASSWORD= "admin"
 
+
+/**
+ * Function that valid the login in application
+ */
 function validarUsuario() {
     const usuario = document.getElementById("username").value;
     const passwordUsuario = document.getElementById("password").value;
@@ -13,6 +20,10 @@ function validarUsuario() {
     
 }
 
+
+/**
+ * Function that valid if imputs are empty
+ */
 function validInput() {
     const validUser= document.getElementById('username').value;
     const validPassword= document.getElementById("password").value;

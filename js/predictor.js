@@ -1,4 +1,10 @@
 
+/**
+ * The predecir() valid generate the logic for application pico and placa
+ * @param puedeCircular @param puedeCircular verifique a of each day of the week so that it can be circulated according to the digit
+ * @param enPicoPlaca make tha validation between they diferents hours of the pico y placa
+ */
+
 function predecir() {
   
     if (!validInput()) {
@@ -30,7 +36,6 @@ function predecir() {
     } else if (diaSemana === "Viernes") {
       puedeCircular = ultimoDigito !== 9 && ultimoDigito !== 0;
     } else {
-      // No aplica el pico y placa los fines de semana
       puedeCircular = true;
     }
   
@@ -61,6 +66,10 @@ function predecir() {
     }
   }
   
+  /**
+   * The validInput() valid if imputs are empty with a regular expresion for
+   * plate, date and hour
+   */
   function validInput() {
     const placa = document.getElementById("placa").value;
     const fecha = document.getElementById("fecha").value;
