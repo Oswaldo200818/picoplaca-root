@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: "Time",sans-serif;
+    background: linear-gradient(#c495bc, #e4c6c6);
+  }
+  
+  .home-predicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  
+  .home-predicator h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background-color: #333333;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    }
+  
+  .home-predicator form {
+    max-width: 500px;
+    margin: 0 auto;
+    }
+    
+  .home-predicator form  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+    
+  .home-predicator form input {
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-bottom: 20px;
+  }
+    
+  .home-predicator button {
+    width: 100%;
+    background-color: #333333;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+    
+  .home-predicator button:hover {
+    color: #c495bc;
+  }
+    
+  #resultado {
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+    background-color: #fff2b8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 0;
+    }
+    

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Pico y Placa</title>
+  <link rel="stylesheet" href="css/predicator.css">
+</head>
+<body>
+  <div class="home-predicator">
+    <h1>Pico y Placa Predictor</h1>
+    <form>
+      <label for="placa">Número de Placa:</label>
+      <input type="text" id="placa" name="placa" required="" placeholder="ADM-1458" pattern="/^[A-Z]{3}-\d{4}$/"/>
+      <br />
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha" required />
+      <br />
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora" name="hora" required />
+      <br />
+      <button type="button" onclick="predecir()">Predecir</button>
+    </form>
+  </div>
+    <p id="resultado" style="display: none;"></p>
+    <script src="js/predictor.js"></script>
+</body>
+</html>
