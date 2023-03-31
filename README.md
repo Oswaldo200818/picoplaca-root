@@ -33,6 +33,10 @@ Validaciones
 - Valida que placa cumpla con la normativa: tres letras mayúsculas, guión y 4 dígitos (BGD-2535) en pantalla de aplicación
 - Valida campos null o undefined en pantalla de aplicación
 
+Creación de ramas en GIT
+- Main 
+- Develop
+
 **NOTA**
 Estimado/a.
 El proyecto no cumple con todos los requisitos debido a inconvenientes técnicos en mi equipo, por lo que no se ha podido completar la implementación de las pruebas automatizadas. Sin embargo, he realizado una simulación de las pruebas utilizando la consola del navegador Chrome, y se ha validado correctamente el funcionamiento del código. Gracias por su atención.
