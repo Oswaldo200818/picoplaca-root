@@ -5,7 +5,7 @@ html {
     margin:0;
     padding:0;
     font-family: "Time",sans-serif;
-    background: linear-gradient(#c495bc, #e4c6c6);
+    background: linear-gradient(#cfe6cd, #c4d1c1);
   }
   
   .home-predicator {
@@ -22,7 +22,7 @@ html {
   }
   
   
-  .home-predicator h1 {
+  .home-predicator h2 {
     width: 100%;
     text-align: center;
     font-size: 26px;
@@ -34,6 +34,7 @@ html {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+    
     }
   
   .home-predicator form {
@@ -70,7 +71,7 @@ html {
   }
     
   .home-predicator button:hover {
-    color: #c495bc;
+    color: #428a41;
   }
     
   #resultado {
@@ -86,4 +87,20 @@ html {
     right: 0px;
     margin: 0;
     }
+
+.container{
+    width: 100%;
+}
+.container .title{
+    text-align: center;
+    font-weight: 800;
+    background-color: rgba(101, 201, 92, 0.5);
+    color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
     
+}
